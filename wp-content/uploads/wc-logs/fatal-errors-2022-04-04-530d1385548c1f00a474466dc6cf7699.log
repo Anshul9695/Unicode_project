@@ -1,0 +1,19 @@
+2022-04-04T09:09:07+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in /official/htdocs/wordpress-project/Unicode_project/wp-content/themes/woocom-themedev/functions.php on line 19 and exactly 2 expected in /official/htdocs/wordpress-project/Unicode_project/wp-includes/nav-menu.php:136
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-content/themes/woocom-themedev/functions.php(19): register_nav_menu(Array)
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): woocommerce_themedev_menus('')
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-settings.php(565): do_action('after_setup_the...')
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-config.php(96): require_once('/official/htdoc...') in /official/htdocs/wordpress-project/Unicode_project/wp-includes/nav-menu.php on line 136
+
+2022-04-04T11:14:20+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function simple_wordpress_theme_li_classes(), 1 passed in /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php on line 309 and exactly 3 expected in /official/htdocs/wordpress-project/Unicode_project/wp-content/themes/Simple_wordpress_theme/functions.php:26
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(309): simple_wordpress_theme_li_classes(Array)
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-walker-nav-menu.php(158): apply_filters('nav_menu_css_cl...', Array, Object(WP_Post), Object(stdClass), 0)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-walker.php(146): Walker_Nav_Menu->start_el('', Object(WP_Post), 0, Object(stdClass))
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-walker.php in /official/htdocs/wordpress-project/Unicode_project/wp-content/themes/Simple_wordpress_theme/functions.php on line 26
+
+2022-04-04T11:23:15+00:00 CRITICAL syntax error, unexpected ';' in /official/htdocs/wordpress-project/Unicode_project/wp-content/themes/Simple_wordpress_theme/functions.php on line 35
+

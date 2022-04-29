@@ -1,0 +1,1 @@
+/* this is the cusotme js file need to be atteched in the footer or header */

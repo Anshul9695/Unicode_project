@@ -1,0 +1,6 @@
+2022-04-11T09:37:07+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in /official/htdocs/wordpress-project/Unicode_project/wp-content/themes/HtmlWpTheme/functions.php on line 13
+
+2022-04-11T12:12:48+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 67108872 bytes) in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-frontend-scripts.php on line 107
+
+2022-04-11T12:24:01+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /official/htdocs/wordpress-project/Unicode_project/wp-content/themes/Formms/functions.php on line 11
+

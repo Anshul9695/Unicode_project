@@ -1,0 +1,12 @@
+04-27-2022 @ 09:30:23 - Started to process order:372
+04-27-2022 @ 09:30:23 - Setting order status to pending for order 372
+04-27-2022 @ 09:30:23 - Sending POST to SeamlessChex, this is what we are sending: amount=27.50&memo=Order+%23372&memo2=Store+%3Ahttp%3A%2F%2Flocalhost%2Fwordpress-project%2FUnicode_project&name=Mishra+Anshul&email=mishra%40gmail.com&label=372&phone=06386437668&address=chitrakoot+uttar+pradesh%2C+near+traffic+chauraha+karwi+uttar+pradesh&city=chitarkoot&state=UP&zip=210205&country=IN&bank_account=987654321&bank_routing=123456789&recurring=&recurring_cycle=&recurring_start_date=&recurring_installments=&verify_before_save=0&fund_confirmation=0&type_info=WooCommerce+Pay+v1.2.3
+04-27-2022 @ 09:30:26 - Preparing data, endpoint is https://sandbox.seamlesschex.com/v1/check/create
+04-27-2022 @ 09:30:26 - Raw Response: {"error":true,"message":"Access key invalid"}
+04-27-2022 @ 09:30:26 - Loaded Response: stdClass Object
+(
+    [error] => 1
+    [message] => Access key invalid
+)
+
+04-27-2022 @ 09:30:26 - Check is not accepted. Seamlesschex returned error description: Access key invalid

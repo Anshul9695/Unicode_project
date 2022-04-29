@@ -1,0 +1,52 @@
+2022-04-13T05:20:29+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_theme_svg() in /official/htdocs/wordpress-project/Unicode_project/wp-content/themes/Formms/header.php:50
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/template.php(770): require_once()
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/template.php(716): load_template('/official/htdoc...', true, Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-content/themes/Formms/page.php(2): get_header()
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-includes/template-loader.php(106): include('/official/htdoc...')
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-blog-header.php(19): require_once('/official/htdoc...')
+#6 /official/htdocs/wordpress-project/Unicode_project/index.php(17): require('/official/htdoc...')
+#7 {main}
+  thrown in /official/htdocs/wordpress-project/Unicode_project/wp-content/themes/Formms/header.php on line 50
+
+2022-04-13T06:15:39+00:00 CRITICAL Uncaught Error: Call to undefined function the_post_custom_thumbnail() in /official/htdocs/wordpress-project/Unicode_project/wp-content/themes/Formms/header.php:70
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/template.php(770): require_once()
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/template.php(716): load_template('/official/htdoc...', true, Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-content/themes/Formms/index.php(2): get_header()
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-includes/template-loader.php(106): include('/official/htdoc...')
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-blog-header.php(19): require_once('/official/htdoc...')
+#6 /official/htdocs/wordpress-project/Unicode_project/index.php(17): require('/official/htdoc...')
+#7 {main}
+  thrown in /official/htdocs/wordpress-project/Unicode_project/wp-content/themes/Formms/header.php on line 70
+
+2022-04-13T06:17:35+00:00 CRITICAL Uncaught Error: Call to undefined function the_post_custom_thumbnail() in /official/htdocs/wordpress-project/Unicode_project/wp-content/themes/Formms/index.php:782
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/template-loader.php(106): include()
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-blog-header.php(19): require_once('/official/htdoc...')
+#2 /official/htdocs/wordpress-project/Unicode_project/index.php(17): require('/official/htdoc...')
+#3 {main}
+  thrown in /official/htdocs/wordpress-project/Unicode_project/wp-content/themes/Formms/index.php on line 782
+
+2022-04-13T08:04:19+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in /official/htdocs/wordpress-project/Unicode_project/wp-content/themes/Formms/index.php on line 462
+
+2022-04-13T09:56:00+00:00 CRITICAL Cannot redeclare create_banner_cpt() (previously declared in /official/htdocs/wordpress-project/Unicode_project/wp-content/themes/Formms/inc/banner.php:6) in /official/htdocs/wordpress-project/Unicode_project/wp-content/themes/Formms/inc/banner.php on line 6
+
+2022-04-13T13:28:25+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /official/htdocs/wordpress-project/Unicode_project/wp-content/themes/Formms/blog.php:6
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/template-loader.php(106): include()
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-blog-header.php(19): require_once('/official/htdoc...')
+#2 /official/htdocs/wordpress-project/Unicode_project/index.php(17): require('/official/htdoc...')
+#3 {main}
+  thrown in /official/htdocs/wordpress-project/Unicode_project/wp-content/themes/Formms/blog.php on line 6
+
+2022-04-13T13:28:55+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /official/htdocs/wordpress-project/Unicode_project/wp-content/themes/Formms/blog.php:6
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/template-loader.php(106): include()
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-blog-header.php(19): require_once('/official/htdoc...')
+#2 /official/htdocs/wordpress-project/Unicode_project/index.php(17): require('/official/htdoc...')
+#3 {main}
+  thrown in /official/htdocs/wordpress-project/Unicode_project/wp-content/themes/Formms/blog.php on line 6
+

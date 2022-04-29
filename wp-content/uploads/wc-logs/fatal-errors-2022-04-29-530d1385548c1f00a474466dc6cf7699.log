@@ -1,0 +1,30 @@
+2022-04-29T06:09:17+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/cheque_book_upload_payment_getway/cheque_book_upload_payment_gateway.php:200
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): process_custom_payment('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1163): do_action('woocommerce_che...')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(461): WC_Checkout->process_checkout()
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): WC_AJAX::checkout('')
+#6 /official/htdocs/wordpress-project/U in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/cheque_book_upload_payment_getway/cheque_book_upload_payment_gateway.php on line 200
+
+2022-04-29T06:10:06+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/cheque_book_upload_payment_getway/cheque_book_upload_payment_gateway.php:200
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): process_custom_payment('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1163): do_action('woocommerce_che...')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(461): WC_Checkout->process_checkout()
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): WC_AJAX::checkout('')
+#6 /official/htdocs/wordpress-project/U in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/cheque_book_upload_payment_getway/cheque_book_upload_payment_gateway.php on line 200
+
+2022-04-29T06:13:51+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/cheque_book_upload_payment_getway/cheque_book_upload_payment_gateway.php:200
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): process_custom_payment('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1163): do_action('woocommerce_che...')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(461): WC_Checkout->process_checkout()
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): WC_AJAX::checkout('')
+#6 /official/htdocs/wordpress-project/U in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/cheque_book_upload_payment_getway/cheque_book_upload_payment_gateway.php on line 200
+

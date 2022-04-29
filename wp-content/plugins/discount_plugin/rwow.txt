@@ -1,0 +1,226 @@
+<?php
+/*
+Plugin Name:Discount_InOrders
+Plugin URI: http://brianhogg.com/
+Description: this is the custome plugin to add extra field in cart page
+Author: Anshul Mishra
+Version: 1.0.0
+Author URI: http://brianhogg.com
+*/
+
+
+
+// if (!class_exists('WooCommerce')) :
+//     require ABSPATH . 'wp-content/plugins/woocommerce/woocommerce.php';
+//     $orders = get_all_orders();
+// endif;
+
+$order = get_order(); 
+echo $order;
+die;
+    $customer_orders = get_posts(apply_filters('woocommerce_my_account_my_orders_query', array(
+        'numberposts' => 1,
+        'meta_key' => '_customer_user',
+        'meta_value' => wp_get_current_user_id(),
+        'post_type' =>wp_get_order_type('view-orders'),
+        'post_status' => array_keys(wc_get_order_statuses())
+            )));
+
+// var_dump($customer_orders);
+// die;
+
+
+// function get_all_orders(){
+// 	$customer_orders = get_posts( apply_filters( 'woocommerce_my_account_my_orders_query', array(
+// 		'numberposts' => $order_count,
+// 		'meta_key'    => '_customer_user',
+// 		'meta_value'  => get_current_user_id(),
+// 		'post_type'   => wc_get_order_types( 'view-orders' ),
+// 		'post_status' => array_keys( wc_get_order_statuses() )
+// 	) ) );
+// return $customer_orders;
+// }
+
+
+
+
+
+// $userId=get_current_user();
+// echo $userId;
+
+
+// $inti = wc_get_customer_order_count($userId);
+// echo $inti;
+
+
+// $customer_orders = get_posts( apply_filters( 'woocommerce_my_account_my_orders_query', array(
+//     'numberposts' => $order_count,
+//     'meta_key'    => '_customer_user',
+//     'meta_value'  => get_current_user_id(),
+//     'post_type'   => wc_get_order_types( 'view-orders' ),
+//     'post_status' => array_keys( wc_get_order_statuses() )
+// ) ) );
+
+
+// var_dump($customer_orders);
+// if ( $customer_orders ) : 
+//     foreach ( $customer_orders as $customer_order ) {
+//                 $order = wc_get_order( $customer_order );
+//                 $order->populate( $customer_order );
+//                 $item_count = $order->get_item_count();
+// // echo $item_count;
+//                  echo $order->get_order_number(); 
+//                  echo wc_get_order_status_name( $order->get_status() );
+//                  echo sprintf( _n( '%s for %s item', '%s for %s items', $item_count, 'woocommerce' ), $order->get_formatted_order_total(), $item_count );
+//             }
+//  endif;
+
+// $customer = wp_get_current_user();
+// // Get all customer orders
+//     $customer_orders = get_posts(array(
+//         'numberposts' => -1,
+//         'meta_key' => '_customer_user',
+//         'orderby' => 'date',
+//         'order' => 'DESC',
+//         'meta_value' => get_current_user_id(),
+//         'post_type'   => wc_get_order_types( 'view-orders' ),
+// 		'post_status' => array_keys( wc_get_order_statuses())
+//     ));
+
+    // $Order_Array = []; //
+    // foreach ($customer_orders as $customer_order) {
+    //     $orderq = wc_get_order($customer_order);
+    //     $Order_Array[] = [
+    //         "ID" => $orderq->get_id(),
+    //         "Value" => $orderq->get_total(),
+    //         "Date" => $orderq->get_date_created()->date_i18n('Y-m-d'),
+    //     ];
+
+    // }
+
+// public function get_sum_of_paid_orders( int $user_id ): int {
+
+//     $customer_orders = [];
+//     foreach ( wc_get_is_paid_statuses() as $paid_status ) {
+//         $customer_orders += wc_get_orders( [
+//             'type'        => 'order',
+//             'limit'       => -1,
+//             'customer_id' => $user_id,
+//             'status'      => $paid_status,
+//         ] );
+//     }
+
+//     $total = 0;
+//     foreach ( $customer_orders as $order ) {
+//         $total += $order->get_total();
+
+//         // your code is here
+//     }
+
+//     print_r($total);
+// }
+// add_action( 'woocommerce_payment_complete', 'get_customer_total_order');
+// $customer = wp_get_current_user();
+// // Get all customer orders
+//     $customer_orders = get_posts(array(
+//         'numberposts' => -1,
+//         'meta_key' => '_customer_user',
+//         'orderby' => 'date',
+//         'order' => 'DESC',
+//         'meta_value' => get_current_user_id(),
+//         'post_type' => wc_get_order_types(),
+//         'post_status' => array_keys(wc_get_order_statuses()), 'post_status' => array('wc-processing'),
+//     ));
+
+//     $Order_Array = []; //
+//     foreach ($customer_orders as $customer_order) {
+//         $orderq = wc_get_order($customer_order);
+//         $Order_Array[] = [
+//             "ID" => $orderq->get_id(),
+//             "Value" => $orderq->get_total(),
+//             "Date" => $orderq->get_date_created()->date_i18n('Y-m-d'),
+//         ];
+
+//     }
+
+
+
+//     $customer_orders = get_posts( array(
+//         'numberposts' => -1,
+//         'meta_key'    => '_customer_user',
+//         'meta_value'  => get_current_user_id(),
+//         'post_type'   => array( 'shop_order' )
+//     ) );
+
+  
+// var_dump($customer_orders);
+// die;
+
+//     foreach ( $customer_orders as $customer_order ) {
+//         $order = wc_get_order( $customer_order );
+//         $total += $order->get_total();
+//     }
+//     $ordertotal=$customer_order->$total;
+//     echo $ordertotal;
+//     die;
+   
+
+
+
+// add_action( 'woocommerce_cart_calculate_fees', 'second_item_discount', 10, 1 );
+// function second_item_discount( $cart ) {
+
+//     if ( is_admin() && ! defined( 'DOING_AJAX' ) )
+//         return;
+
+//     $percentage = 50; // 20%
+//     $discount   = 0;
+
+//     // Loop through cart items
+//     foreach ( $cart->get_cart() as $cart_item ) {
+//         // When quantity is less than 1
+//         if( $cart_item['quantity'] ==1 ){
+//             // 50% of the product price as a discount
+//             $discount += wc_get_price_excluding_tax( $cart_item['data'] ) * $percentage / 100;
+//         }
+//     }
+//     if( $discount > 0 )
+//         $cart->add_fee( __( '1first item discount', 'woocommerce' ) , -$discount );
+// }
+
+
+
+
+
+
+
+
+// function get_customer_discount(){
+//     if( $points = get_discount_points() ){
+//         if ( $points < 100 ) {
+//             return 1; // 1 % discount
+//         } elseif ( $points < 200 ) {
+//             return 2; // 2.5 % discount
+//         } else {
+//             return 4; // 5 % discount
+//         }
+//     } else {
+//         return false;
+//     }
+// }
+
+
+// add_action( 'woocommerce_cart_calculate_fees', 'custom_discount', 10, 1 );
+// function custom_discount( $cart ){
+//     if ( is_admin() && ! defined( 'DOING_AJAX' ) )
+//         return;
+
+//     // Only for 2 items or more
+//     if( $percentage = get_customer_discount() ){
+//         $discount = WC()->cart->get_subtotal() * $percentage / 100;
+
+//         // Apply discount to 2nd item for non on sale items in cart
+//         if( $discount > 0 )
+//             $cart->add_fee( sprintf( __("Discount %s%%"), $percentage), -$discount );
+//     }
+// }

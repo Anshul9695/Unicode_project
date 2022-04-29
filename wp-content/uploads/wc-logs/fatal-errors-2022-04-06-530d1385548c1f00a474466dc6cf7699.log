@@ -1,0 +1,149 @@
+2022-04-06T07:36:54+00:00 CRITICAL Uncaught Error: Call to a member function insert() on null in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_plugin/employee_insert.php:53
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): employee_insert('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-admin/admin.php(259): do_action('employee-listin...')
+#4 {main}
+  thrown in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_plugin/employee_insert.php on line 53
+
+2022-04-06T07:37:54+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wpdb::query(), 0 passed in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_plugin/employee_insert.php on line 60 and exactly 1 expected in /official/htdocs/wordpress-project/Unicode_project/wp-includes/wp-db.php:2000
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_plugin/employee_insert.php(60): wpdb->query()
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): employee_insert('')
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-admin/admin.php(259): do_action('employee-listin...')
+#5 {main}
+  thrown in /official/htdocs/wordpress-project/Unicode_project/wp-includes/wp-db.php on line 2000
+
+2022-04-06T07:40:05+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wpdb::query(), 0 passed in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_plugin/employee_insert.php on line 60 and exactly 1 expected in /official/htdocs/wordpress-project/Unicode_project/wp-includes/wp-db.php:2000
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_plugin/employee_insert.php(60): wpdb->query()
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): employee_insert('')
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-admin/admin.php(259): do_action('employee-listin...')
+#5 {main}
+  thrown in /official/htdocs/wordpress-project/Unicode_project/wp-includes/wp-db.php on line 2000
+
+2022-04-06T08:55:27+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wpdb::query(), 0 passed in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_plugin/employee_insert.php on line 60 and exactly 1 expected in /official/htdocs/wordpress-project/Unicode_project/wp-includes/wp-db.php:2000
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_plugin/employee_insert.php(60): wpdb->query()
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): employee_insert('')
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-admin/admin.php(259): do_action('employee-listin...')
+#5 {main}
+  thrown in /official/htdocs/wordpress-project/Unicode_project/wp-includes/wp-db.php on line 2000
+
+2022-04-06T08:55:32+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wpdb::query(), 0 passed in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_plugin/employee_insert.php on line 60 and exactly 1 expected in /official/htdocs/wordpress-project/Unicode_project/wp-includes/wp-db.php:2000
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_plugin/employee_insert.php(60): wpdb->query()
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): employee_insert('')
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-admin/admin.php(259): do_action('employee-listin...')
+#5 {main}
+  thrown in /official/htdocs/wordpress-project/Unicode_project/wp-includes/wp-db.php on line 2000
+
+2022-04-06T09:32:42+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wpdb::query(), 0 passed in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_plugin/employee_insert.php on line 60 and exactly 1 expected in /official/htdocs/wordpress-project/Unicode_project/wp-includes/wp-db.php:2000
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_plugin/employee_insert.php(60): wpdb->query()
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): employee_insert('')
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-admin/admin.php(259): do_action('employee-listin...')
+#5 {main}
+  thrown in /official/htdocs/wordpress-project/Unicode_project/wp-includes/wp-db.php on line 2000
+
+2022-04-06T09:49:12+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wpdb::query(), 0 passed in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_plugin/employee_insert.php on line 60 and exactly 1 expected in /official/htdocs/wordpress-project/Unicode_project/wp-includes/wp-db.php:2000
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_plugin/employee_insert.php(60): wpdb->query()
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): employee_insert('')
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-admin/admin.php(259): do_action('custome-plugin_...')
+#5 {main}
+  thrown in /official/htdocs/wordpress-project/Unicode_project/wp-includes/wp-db.php on line 2000
+
+2022-04-06T09:56:58+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wpdb::query(), 0 passed in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_plugin/employee_insert.php on line 60 and exactly 1 expected in /official/htdocs/wordpress-project/Unicode_project/wp-includes/wp-db.php:2000
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_plugin/employee_insert.php(60): wpdb->query()
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): employee_insert('')
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-admin/admin.php(259): do_action('custome_plugin_...')
+#5 {main}
+  thrown in /official/htdocs/wordpress-project/Unicode_project/wp-includes/wp-db.php on line 2000
+
+2022-04-06T10:42:42+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wpdb::query(), 0 passed in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_plugin/employee_insert.php on line 60 and exactly 1 expected in /official/htdocs/wordpress-project/Unicode_project/wp-includes/wp-db.php:2000
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_plugin/employee_insert.php(60): wpdb->query()
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): employee_insert('')
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-admin/admin.php(259): do_action('custome_plugin_...')
+#5 {main}
+  thrown in /official/htdocs/wordpress-project/Unicode_project/wp-includes/wp-db.php on line 2000
+
+2022-04-06T10:46:01+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function plugin_dir_path(), 0 passed in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_plugin/employee_insert.php on line 64 and exactly 1 expected in /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php:780
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_plugin/employee_insert.php(64): plugin_dir_path()
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): employee_insert('')
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-admin/admin.php(259): do_action('custome_plugin_...')
+#5 {main}
+  thrown in /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php on line 780
+
+2022-04-06T11:11:25+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wpdb::query(), 0 passed in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_plugin/employee_insert.php on line 60 and exactly 1 expected in /official/htdocs/wordpress-project/Unicode_project/wp-includes/wp-db.php:2000
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_plugin/employee_insert.php(60): wpdb->query()
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): employee_insert('')
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-admin/admin.php(259): do_action('custome_plugin_...')
+#5 {main}
+  thrown in /official/htdocs/wordpress-project/Unicode_project/wp-includes/wp-db.php on line 2000
+
+2022-04-06T11:12:37+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wpdb::query(), 0 passed in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_plugin/employee_insert.php on line 60 and exactly 1 expected in /official/htdocs/wordpress-project/Unicode_project/wp-includes/wp-db.php:2000
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_plugin/employee_insert.php(60): wpdb->query()
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): employee_insert('')
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-admin/admin.php(259): do_action('custome_plugin_...')
+#5 {main}
+  thrown in /official/htdocs/wordpress-project/Unicode_project/wp-includes/wp-db.php on line 2000
+
+2022-04-06T11:16:12+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wpdb::query(), 0 passed in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_plugin/employee_insert.php on line 60 and exactly 1 expected in /official/htdocs/wordpress-project/Unicode_project/wp-includes/wp-db.php:2000
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_plugin/employee_insert.php(60): wpdb->query()
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): employee_insert('')
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-admin/admin.php(259): do_action('custome_plugin_...')
+#5 {main}
+  thrown in /official/htdocs/wordpress-project/Unicode_project/wp-includes/wp-db.php on line 2000
+
+2022-04-06T11:17:28+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wpdb::query(), 0 passed in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_plugin/employee_insert.php on line 60 and exactly 1 expected in /official/htdocs/wordpress-project/Unicode_project/wp-includes/wp-db.php:2000
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_plugin/employee_insert.php(60): wpdb->query()
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): employee_insert('')
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-admin/admin.php(259): do_action('custome_plugin_...')
+#5 {main}
+  thrown in /official/htdocs/wordpress-project/Unicode_project/wp-includes/wp-db.php on line 2000
+
+2022-04-06T11:51:23+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wpdb::query(), 0 passed in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_plugin/employee_insert.php on line 60 and exactly 1 expected in /official/htdocs/wordpress-project/Unicode_project/wp-includes/wp-db.php:2000
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_plugin/employee_insert.php(60): wpdb->query()
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): employee_insert('')
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-admin/admin.php(259): do_action('custome_plugin_...')
+#5 {main}
+  thrown in /official/htdocs/wordpress-project/Unicode_project/wp-includes/wp-db.php on line 2000
+

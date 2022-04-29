@@ -1,0 +1,64 @@
+2022-04-15T05:42:52+00:00 CRITICAL syntax error, unexpected ')' in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/wp-next-plugin-master/views/add-student.php on line 12
+
+2022-04-15T05:50:18+00:00 CRITICAL Cannot redeclare deactivate_the_plugin() (previously declared in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_plugin/custome_plugin.php:34) in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/wp-next-plugin-master/wp-next-plugin.php on line 26
+
+2022-04-15T05:50:18+00:00 CRITICAL Cannot redeclare deactivate_the_plugin() (previously declared in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_plugin/custome_plugin.php:34) in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/wp-next-plugin-master/wp-next-plugin.php on line 26
+
+2022-04-15T05:50:18+00:00 CRITICAL Cannot redeclare deactivate_the_plugin() (previously declared in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_plugin/custome_plugin.php:34) in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/wp-next-plugin-master/wp-next-plugin.php on line 26
+
+2022-04-15T06:09:50+00:00 CRITICAL Uncaught Error: Call to undefined function get_user_data() in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/wp-next-plugin-master/wp-next-plugin.php:39
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): next_menus_development('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-admin/includes/menu.php(155): do_action('admin_menu', '')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-admin/menu.php(394): require_once('/official/htdoc...')
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-admin/admin.php(158): require('/official/htdoc...')
+#6 {main}
+  thrown in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/wp-next-plugin-master/wp-next-plugin.php on line 39
+
+2022-04-15T11:22:21+00:00 CRITICAL syntax error, unexpected 'CREATE' (T_STRING), expecting ',' or ';' in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/wp-next-plugin-master/wp-next-plugin.php on line 24
+
+2022-04-15T11:25:32+00:00 CRITICAL Uncaught Error: Call to undefined function prepare() in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/wp-next-plugin-master/wp-next-plugin.php:17
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-settings.php(418): include_once()
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-config.php(96): require_once('/official/htdoc...')
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-load.php(50): require_once('/official/htdoc...')
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-admin/admin.php(34): require_once('/official/htdoc...')
+#4 {main}
+  thrown in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/wp-next-plugin-master/wp-next-plugin.php on line 17
+
+2022-04-15T11:48:00+00:00 CRITICAL syntax error, unexpected end of file in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/wp-next-plugin-master/views/add-student.php on line 90
+
+2022-04-15T11:48:09+00:00 CRITICAL syntax error, unexpected end of file in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/wp-next-plugin-master/views/add-student.php on line 90
+
+2022-04-15T11:48:29+00:00 CRITICAL syntax error, unexpected end of file in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/wp-next-plugin-master/views/add-student.php on line 89
+
+2022-04-15T11:48:34+00:00 CRITICAL syntax error, unexpected end of file in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/wp-next-plugin-master/views/add-student.php on line 89
+
+2022-04-15T11:49:10+00:00 CRITICAL syntax error, unexpected end of file in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/wp-next-plugin-master/views/add-student.php on line 85
+
+2022-04-15T11:49:17+00:00 CRITICAL syntax error, unexpected end of file in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/wp-next-plugin-master/views/add-student.php on line 85
+
+2022-04-15T11:49:46+00:00 CRITICAL syntax error, unexpected end of file in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/wp-next-plugin-master/views/add-student.php on line 85
+
+2022-04-15T11:49:53+00:00 CRITICAL syntax error, unexpected end of file in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/wp-next-plugin-master/views/add-student.php on line 85
+
+2022-04-15T11:50:33+00:00 CRITICAL syntax error, unexpected end of file in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/wp-next-plugin-master/views/add-student.php on line 88
+
+2022-04-15T11:50:34+00:00 CRITICAL syntax error, unexpected end of file in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/wp-next-plugin-master/views/add-student.php on line 88
+
+2022-04-15T11:50:34+00:00 CRITICAL syntax error, unexpected end of file in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/wp-next-plugin-master/views/add-student.php on line 88
+
+2022-04-15T11:50:34+00:00 CRITICAL syntax error, unexpected end of file in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/wp-next-plugin-master/views/add-student.php on line 88
+
+2022-04-15T11:50:35+00:00 CRITICAL syntax error, unexpected end of file in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/wp-next-plugin-master/views/add-student.php on line 88
+
+2022-04-15T11:50:35+00:00 CRITICAL syntax error, unexpected end of file in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/wp-next-plugin-master/views/add-student.php on line 88
+
+2022-04-15T11:50:35+00:00 CRITICAL syntax error, unexpected end of file in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/wp-next-plugin-master/views/add-student.php on line 88
+
+2022-04-15T11:50:35+00:00 CRITICAL syntax error, unexpected end of file in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/wp-next-plugin-master/views/add-student.php on line 88
+
+2022-04-15T11:50:47+00:00 CRITICAL syntax error, unexpected end of file in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/wp-next-plugin-master/views/add-student.php on line 88
+

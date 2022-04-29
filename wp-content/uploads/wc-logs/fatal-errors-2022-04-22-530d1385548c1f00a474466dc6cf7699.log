@@ -1,0 +1,29 @@
+2022-04-22T07:13:31+00:00 CRITICAL Uncaught Error: Call to undefined function notify_coupon_status() in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/first-order-discount-woocommerce/fodw-admin.php:15
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): fodw_discount('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-admin/admin.php(259): do_action('woo-extend_page...')
+#4 {main}
+  thrown in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/first-order-discount-woocommerce/fodw-admin.php on line 15
+
+2022-04-22T09:20:42+00:00 CRITICAL Uncaught Error: Call to undefined function print_f() in /official/htdocs/wordpress-project/Unicode_project/wp-content/themes/twentytwenty/functions.php:801
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-settings.php(555): include()
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-config.php(96): require_once('/official/htdoc...')
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-load.php(50): require_once('/official/htdoc...')
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-blog-header.php(13): require_once('/official/htdoc...')
+#4 /official/htdocs/wordpress-project/Unicode_project/index.php(17): require('/official/htdoc...')
+#5 {main}
+  thrown in /official/htdocs/wordpress-project/Unicode_project/wp-content/themes/twentytwenty/functions.php on line 801
+
+2022-04-22T11:35:20+00:00 CRITICAL Uncaught Error: Call to undefined function get_discount_points() in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php:41
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php(62): get_customer_discount()
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): custom_discount(Object(WC_Cart))
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1885): do_action('woocommerce_car...', Object(WC_Cart))
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(272): WC_Cart->calculate_fees()
+#6 /official/htdocs/wordpress-pro in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php on line 41
+

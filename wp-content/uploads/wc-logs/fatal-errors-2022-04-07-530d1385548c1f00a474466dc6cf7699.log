@@ -1,0 +1,14 @@
+2022-04-07T06:10:30+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wpdb::query(), 0 passed in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_plugin/employee_insert.php on line 60 and exactly 1 expected in /official/htdocs/wordpress-project/Unicode_project/wp-includes/wp-db.php:2000
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_plugin/employee_insert.php(60): wpdb->query()
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): employee_insert('')
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-admin/admin.php(259): do_action('custome_plugin_...')
+#5 {main}
+  thrown in /official/htdocs/wordpress-project/Unicode_project/wp-includes/wp-db.php on line 2000
+
+2022-04-07T09:45:17+00:00 CRITICAL Cannot redeclare get_settings_errors() (previously declared in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/Learn_wp_hooks/wp_hooks.php:152) in /official/htdocs/wordpress-project/Unicode_project/wp-admin/includes/template.php on line 1817
+
+2022-04-07T09:45:17+00:00 CRITICAL Cannot redeclare get_settings_errors() (previously declared in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/Learn_wp_hooks/wp_hooks.php:152) in /official/htdocs/wordpress-project/Unicode_project/wp-admin/includes/template.php on line 1817
+

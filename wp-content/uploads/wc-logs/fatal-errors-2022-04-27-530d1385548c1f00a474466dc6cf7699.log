@@ -1,0 +1,89 @@
+2022-04-27T05:19:56+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_payement_gateway/custome_payment_getaway.php:189
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): process_custom_payment('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1163): do_action('woocommerce_che...')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(461): WC_Checkout->process_checkout()
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): WC_AJAX::checkout('')
+#6 /official/htdocs/wordpress-project/Unicode_project/wp-in in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_payement_gateway/custome_payment_getaway.php on line 189
+
+2022-04-27T05:21:16+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_payement_gateway/custome_payment_getaway.php:189
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): process_custom_payment('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1163): do_action('woocommerce_che...')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(461): WC_Checkout->process_checkout()
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): WC_AJAX::checkout('')
+#6 /official/htdocs/wordpress-project/Unicode_project/wp-in in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_payement_gateway/custome_payment_getaway.php on line 189
+
+2022-04-27T05:21:36+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_payement_gateway/custome_payment_getaway.php:189
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): process_custom_payment('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1163): do_action('woocommerce_che...')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(461): WC_Checkout->process_checkout()
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): WC_AJAX::checkout('')
+#6 /official/htdocs/wordpress-project/Unicode_project/wp-in in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_payement_gateway/custome_payment_getaway.php on line 189
+
+2022-04-27T05:21:58+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_payement_gateway/custome_payment_getaway.php:189
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): process_custom_payment('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1163): do_action('woocommerce_che...')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(461): WC_Checkout->process_checkout()
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): WC_AJAX::checkout('')
+#6 /official/htdocs/wordpress-project/Unicode_project/wp-in in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_payement_gateway/custome_payment_getaway.php on line 189
+
+2022-04-27T05:22:14+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_payement_gateway/custome_payment_getaway.php:189
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): process_custom_payment('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1163): do_action('woocommerce_che...')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(461): WC_Checkout->process_checkout()
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): WC_AJAX::checkout('')
+#6 /official/htdocs/wordpress-project/Unicode_project/wp-in in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_payement_gateway/custome_payment_getaway.php on line 189
+
+2022-04-27T05:23:58+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_payement_gateway/custome_payment_getaway.php:189
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): process_custom_payment('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1163): do_action('woocommerce_che...')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(461): WC_Checkout->process_checkout()
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): WC_AJAX::checkout('')
+#6 /official/htdocs/wordpress-project/Unicode_project/wp-in in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_payement_gateway/custome_payment_getaway.php on line 189
+
+2022-04-27T05:45:42+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_payement_gateway/custome_payment_getaway.php:195
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): process_custom_payment('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1163): do_action('woocommerce_che...')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(461): WC_Checkout->process_checkout()
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): WC_AJAX::checkout('')
+#6 /official/htdocs/wordpress-project/Unicode_project/wp-in in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_payement_gateway/custome_payment_getaway.php on line 195
+
+2022-04-27T06:07:58+00:00 CRITICAL Uncaught Error: Call to undefined function add_custom_image() in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_payement_gateway/custome_payment_getaway.php:165
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/templates/checkout/payment-method.php(30): WC_Gateway_Custom->payment_fields()
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/official/htdoc...')
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/templates/checkout/payment.php(30): wc_get_template('checkout/paymen...', Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/official/htdoc...')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2345): wc_get_template('checkout/paymen...', Array)
+#5 /official/ in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_payement_gateway/custome_payment_getaway.php on line 165
+
+2022-04-27T06:41:15+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_payement_gateway/custome_payment_getaway.php:195
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): process_custom_payment('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1163): do_action('woocommerce_che...')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(461): WC_Checkout->process_checkout()
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): WC_AJAX::checkout('')
+#6 /official/htdocs/wordpress-project/Unicode_project/wp-in in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/custome_payement_gateway/custome_payment_getaway.php on line 195
+

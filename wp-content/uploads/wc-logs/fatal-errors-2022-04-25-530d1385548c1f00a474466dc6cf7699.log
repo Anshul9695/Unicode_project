@@ -1,0 +1,399 @@
+2022-04-25T06:00:15+00:00 CRITICAL Uncaught Error: Call to undefined function pre() in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php:16
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): getdata('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-settings.php(587): do_action('init')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-config.php(96): require_once('/official/htdoc...')
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-load.php(50): require_once('/official/htdoc...')
+#6 /official/htdocs/wordpress-project/Unicode_project/wp-blog-header.php(13): require_once('/official/htdoc...')
+#7 /official/htdocs/wordpress-project/Unicode_project/index.php(17): require('/official/htdoc...') in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php on line 16
+
+2022-04-25T06:01:34+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_current_user_id() in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php:17
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): getdata('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-settings.php(587): do_action('init')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-config.php(96): require_once('/official/htdoc...')
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-load.php(50): require_once('/official/htdoc...')
+#6 /official/htdocs/wordpress-project/Unicode_project/wp-blog-header.php(13): require_once('/official/htdoc...')
+#7 /official/htdocs/wordpress-project/Unicode_project/index.php(17): require('/ in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php on line 17
+
+2022-04-25T07:15:03+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on null in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/wc-product-functions.php:1074
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php(38): wc_get_price_excluding_tax(NULL)
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): second_item_discount(Object(WC_Cart))
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1885): do_action('woocommerce_car...', Object(WC_Cart))
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(272): WC_Cart->calculate_fees()
+#6 / in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/wc-product-functions.php on line 1074
+
+2022-04-25T07:15:46+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on integer in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/wc-product-functions.php:1074
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php(44): wc_get_price_excluding_tax(2)
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): second_item_discount(Object(WC_Cart))
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1885): do_action('woocommerce_car...', Object(WC_Cart))
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(272): WC_Cart->calculate_fees()
+#6 / in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/wc-product-functions.php on line 1074
+
+2022-04-25T09:00:21+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on integer in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/wc-product-functions.php:1074
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php(44): wc_get_price_excluding_tax(2)
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): second_item_discount(Object(WC_Cart))
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1885): do_action('woocommerce_car...', Object(WC_Cart))
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(272): WC_Cart->calculate_fees()
+#6 / in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/wc-product-functions.php on line 1074
+
+2022-04-25T09:17:47+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on boolean in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php:22
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): getdata('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-settings.php(587): do_action('init')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-config.php(96): require_once('/official/htdoc...')
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-load.php(50): require_once('/official/htdoc...')
+#6 /official/htdocs/wordpress-project/Unicode_project/wp-blog-header.php(13): require_once('/official/htdoc...')
+#7 /official/htdocs/wordpress-project/Unicode_project/index.php(17): require('/off in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php on line 22
+
+2022-04-25T09:18:28+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on boolean in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php:22
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): getdata('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-settings.php(587): do_action('init')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-config.php(96): require_once('/official/htdoc...')
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-load.php(50): require_once('/official/htdoc...')
+#6 /official/htdocs/wordpress-project/Unicode_project/wp-admin/admin-ajax.php(22): require_once('/official/htdoc...')
+#7 {main}
+  thrown in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php on line 22
+
+2022-04-25T09:18:49+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php:20
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): getdata('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-settings.php(587): do_action('init')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-config.php(96): require_once('/official/htdoc...')
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-load.php(50): require_once('/official/htdoc...')
+#6 /official/htdocs/wordpress-project/Unicode_project/wp-blog-header.php(13): require_once('/official/htdoc...')
+#7 /official/htdocs/wordpress-project/Unicode_project/index.php(17): require('/official/ in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php on line 20
+
+2022-04-25T09:18:50+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php:20
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): getdata('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-settings.php(587): do_action('init')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-config.php(96): require_once('/official/htdoc...')
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-load.php(50): require_once('/official/htdoc...')
+#6 /official/htdocs/wordpress-project/Unicode_project/wp-blog-header.php(13): require_once('/official/htdoc...')
+#7 /official/htdocs/wordpress-project/Unicode_project/index.php(17): require('/official/ in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php on line 20
+
+2022-04-25T09:20:28+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php:20
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): getdata('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-settings.php(587): do_action('init')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-config.php(96): require_once('/official/htdoc...')
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-load.php(50): require_once('/official/htdoc...')
+#6 /official/htdocs/wordpress-project/Unicode_project/wp-admin/admin-ajax.php(22): require_once('/official/htdoc...')
+#7 {main}
+  thrown in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php on line 20
+
+2022-04-25T09:22:29+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php:20
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): getdata('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-settings.php(587): do_action('init')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-config.php(96): require_once('/official/htdoc...')
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-load.php(50): require_once('/official/htdoc...')
+#6 /official/htdocs/wordpress-project/Unicode_project/wp-admin/admin-ajax.php(22): require_once('/official/htdoc...')
+#7 {main}
+  thrown in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php on line 20
+
+2022-04-25T09:24:30+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php:20
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): getdata('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-settings.php(587): do_action('init')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-config.php(96): require_once('/official/htdoc...')
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-load.php(50): require_once('/official/htdoc...')
+#6 /official/htdocs/wordpress-project/Unicode_project/wp-admin/admin-ajax.php(22): require_once('/official/htdoc...')
+#7 {main}
+  thrown in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php on line 20
+
+2022-04-25T09:26:31+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php:20
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): getdata('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-settings.php(587): do_action('init')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-config.php(96): require_once('/official/htdoc...')
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-load.php(50): require_once('/official/htdoc...')
+#6 /official/htdocs/wordpress-project/Unicode_project/wp-admin/admin-ajax.php(22): require_once('/official/htdoc...')
+#7 {main}
+  thrown in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php on line 20
+
+2022-04-25T09:28:31+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php:20
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): getdata('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-settings.php(587): do_action('init')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-config.php(96): require_once('/official/htdoc...')
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-load.php(50): require_once('/official/htdoc...')
+#6 /official/htdocs/wordpress-project/Unicode_project/wp-admin/admin-ajax.php(22): require_once('/official/htdoc...')
+#7 {main}
+  thrown in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php on line 20
+
+2022-04-25T09:30:32+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php:20
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): getdata('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-settings.php(587): do_action('init')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-config.php(96): require_once('/official/htdoc...')
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-load.php(50): require_once('/official/htdoc...')
+#6 /official/htdocs/wordpress-project/Unicode_project/wp-admin/admin-ajax.php(22): require_once('/official/htdoc...')
+#7 {main}
+  thrown in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php on line 20
+
+2022-04-25T09:31:33+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php:20
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): getdata('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-settings.php(587): do_action('init')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-config.php(96): require_once('/official/htdoc...')
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-load.php(50): require_once('/official/htdoc...')
+#6 /official/htdocs/wordpress-project/Unicode_project/wp-blog-header.php(13): require_once('/official/htdoc...')
+#7 /official/htdocs/wordpress-project/Unicode_project/index.php(17): require('/official/ in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php on line 20
+
+2022-04-25T09:31:34+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php:20
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): getdata('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-settings.php(587): do_action('init')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-config.php(96): require_once('/official/htdoc...')
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-load.php(50): require_once('/official/htdoc...')
+#6 /official/htdocs/wordpress-project/Unicode_project/wp-blog-header.php(13): require_once('/official/htdoc...')
+#7 /official/htdocs/wordpress-project/Unicode_project/index.php(17): require('/official/ in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php on line 20
+
+2022-04-25T09:31:35+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php:20
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): getdata('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-settings.php(587): do_action('init')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-config.php(96): require_once('/official/htdoc...')
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-load.php(50): require_once('/official/htdoc...')
+#6 /official/htdocs/wordpress-project/Unicode_project/wp-blog-header.php(13): require_once('/official/htdoc...')
+#7 /official/htdocs/wordpress-project/Unicode_project/index.php(17): require('/official/ in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php on line 20
+
+2022-04-25T09:31:35+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php:20
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): getdata('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-settings.php(587): do_action('init')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-config.php(96): require_once('/official/htdoc...')
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-load.php(50): require_once('/official/htdoc...')
+#6 /official/htdocs/wordpress-project/Unicode_project/wp-blog-header.php(13): require_once('/official/htdoc...')
+#7 /official/htdocs/wordpress-project/Unicode_project/index.php(17): require('/official/ in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php on line 20
+
+2022-04-25T09:31:35+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php:20
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): getdata('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-settings.php(587): do_action('init')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-config.php(96): require_once('/official/htdoc...')
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-load.php(50): require_once('/official/htdoc...')
+#6 /official/htdocs/wordpress-project/Unicode_project/wp-blog-header.php(13): require_once('/official/htdoc...')
+#7 /official/htdocs/wordpress-project/Unicode_project/index.php(17): require('/official/ in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php on line 20
+
+2022-04-25T09:31:36+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php:20
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): getdata('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-settings.php(587): do_action('init')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-config.php(96): require_once('/official/htdoc...')
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-load.php(50): require_once('/official/htdoc...')
+#6 /official/htdocs/wordpress-project/Unicode_project/wp-blog-header.php(13): require_once('/official/htdoc...')
+#7 /official/htdocs/wordpress-project/Unicode_project/index.php(17): require('/official/ in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php on line 20
+
+2022-04-25T09:31:36+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php:20
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): getdata('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-settings.php(587): do_action('init')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-config.php(96): require_once('/official/htdoc...')
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-load.php(50): require_once('/official/htdoc...')
+#6 /official/htdocs/wordpress-project/Unicode_project/wp-blog-header.php(13): require_once('/official/htdoc...')
+#7 /official/htdocs/wordpress-project/Unicode_project/index.php(17): require('/official/ in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php on line 20
+
+2022-04-25T09:31:49+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php:20
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): getdata('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-settings.php(587): do_action('init')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-config.php(96): require_once('/official/htdoc...')
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-load.php(50): require_once('/official/htdoc...')
+#6 /official/htdocs/wordpress-project/Unicode_project/wp-blog-header.php(13): require_once('/official/htdoc...')
+#7 /official/htdocs/wordpress-project/Unicode_project/index.php(17): require('/official/ in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php on line 20
+
+2022-04-25T09:31:56+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php:20
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): getdata('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-settings.php(587): do_action('init')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-config.php(96): require_once('/official/htdoc...')
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-load.php(50): require_once('/official/htdoc...')
+#6 /official/htdocs/wordpress-project/Unicode_project/wp-blog-header.php(13): require_once('/official/htdoc...')
+#7 /official/htdocs/wordpress-project/Unicode_project/index.php(17): require('/official/ in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php on line 20
+
+2022-04-25T09:32:32+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php:20
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): getdata('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-settings.php(587): do_action('init')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-config.php(96): require_once('/official/htdoc...')
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-load.php(50): require_once('/official/htdoc...')
+#6 /official/htdocs/wordpress-project/Unicode_project/wp-admin/admin-ajax.php(22): require_once('/official/htdoc...')
+#7 {main}
+  thrown in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php on line 20
+
+2022-04-25T09:34:33+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on null in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php:21
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): getdata('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-settings.php(587): do_action('init')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-config.php(96): require_once('/official/htdoc...')
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-load.php(50): require_once('/official/htdoc...')
+#6 /official/htdocs/wordpress-project/Unicode_project/wp-admin/admin-ajax.php(22): require_once('/official/htdoc...')
+#7 {main}
+  thrown in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php on line 21
+
+2022-04-25T09:36:35+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on null in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php:21
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): getdata('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-settings.php(587): do_action('init')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-config.php(96): require_once('/official/htdoc...')
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-load.php(50): require_once('/official/htdoc...')
+#6 /official/htdocs/wordpress-project/Unicode_project/wp-admin/admin-ajax.php(22): require_once('/official/htdoc...')
+#7 {main}
+  thrown in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php on line 21
+
+2022-04-25T09:37:33+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php:19
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): getdata('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-settings.php(587): do_action('init')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-config.php(96): require_once('/official/htdoc...')
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-load.php(50): require_once('/official/htdoc...')
+#6 /official/htdocs/wordpress-project/Unicode_project/wp-blog-header.php(13): require_once('/official/htdoc...')
+#7 /official/htdocs/wordpress-project/Unicode_project/index.php(17): require('/official/ in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php on line 19
+
+2022-04-25T09:38:34+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php:19
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): getdata('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-settings.php(587): do_action('init')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-config.php(96): require_once('/official/htdoc...')
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-load.php(50): require_once('/official/htdoc...')
+#6 /official/htdocs/wordpress-project/Unicode_project/wp-admin/admin-ajax.php(22): require_once('/official/htdoc...')
+#7 {main}
+  thrown in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php on line 19
+
+2022-04-25T09:40:35+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php:19
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): getdata('')
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-settings.php(587): do_action('init')
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-config.php(96): require_once('/official/htdoc...')
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-load.php(50): require_once('/official/htdoc...')
+#6 /official/htdocs/wordpress-project/Unicode_project/wp-admin/admin-ajax.php(22): require_once('/official/htdoc...')
+#7 {main}
+  thrown in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php on line 19
+
+2022-04-25T10:32:11+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php:26
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): elex_discount_price(Object(WC_Cart))
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1885): do_action('woocommerce_car...', Object(WC_Cart))
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(272): WC_Cart->calculate_fees()
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(833): WC_Cart_Totals->get_fees_from_cart()
+#6  in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php on line 26
+
+2022-04-25T10:44:36+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php:21
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): elex_discount_price(Object(WC_Cart))
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1885): do_action('woocommerce_car...', Object(WC_Cart))
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(272): WC_Cart->calculate_fees()
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(833): WC_Cart_Totals->get_fees_from_cart()
+#6 /o in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php on line 21
+
+2022-04-25T10:47:07+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php:21
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): elex_discount_price(Object(WC_Cart))
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1885): do_action('woocommerce_car...', Object(WC_Cart))
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(272): WC_Cart->calculate_fees()
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(833): WC_Cart_Totals->get_fees_from_cart()
+#6 /o in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php on line 21
+
+2022-04-25T10:47:21+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php:21
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): elex_discount_price(Object(WC_Cart))
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1885): do_action('woocommerce_car...', Object(WC_Cart))
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(272): WC_Cart->calculate_fees()
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(833): WC_Cart_Totals->get_fees_from_cart()
+#6 /o in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php on line 21
+
+2022-04-25T11:01:27+00:00 CRITICAL Uncaught Error: Call to a member function add_fee() on null in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php:45
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): elex_discount_price(Object(WC_Cart))
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1885): do_action('woocommerce_car...', Object(WC_Cart))
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(272): WC_Cart->calculate_fees()
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(833): WC_Cart_Totals->get_fees_from_cart()
+#6 / in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php on line 45
+
+2022-04-25T11:02:16+00:00 CRITICAL Uncaught Error: Call to a member function add_fee() on null in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php:45
+Stack trace:
+#0 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(307): elex_discount_price(Object(WC_Cart))
+#1 /official/htdocs/wordpress-project/Unicode_project/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /official/htdocs/wordpress-project/Unicode_project/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1885): do_action('woocommerce_car...', Object(WC_Cart))
+#4 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(272): WC_Cart->calculate_fees()
+#5 /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(833): WC_Cart_Totals->get_fees_from_cart()
+#6 / in /official/htdocs/wordpress-project/Unicode_project/wp-content/plugins/discount_plugin/functions.php on line 45
+

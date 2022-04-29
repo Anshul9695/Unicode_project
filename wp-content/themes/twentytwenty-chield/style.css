@@ -1,0 +1,99 @@
+/*
+Theme Name: Twenty Twenty Child
+Theme URL: http://wpamanuke.com/
+Description: Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Author: Unicode systems 
+Author URL: http://wpamanuke.com/
+Template: twentytwenty
+Version: 1.0.0
+Requires PHP: 7.0
+Text Domain: twentytwenty
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/ 
+/* Custom CSS goes after this line */
+.woocommerce-cart .woocommerce-cart-form {
+    flex: 1 0 70%; /* 100% at small screens; 70% on larger screens */
+    margin-right: 30px;
+  }
+  
+  /* The element that contains the cart totals */
+  .woocommerce-cart .cart-collaterals {
+    flex: 1 0 30%; /* 100% at small screens; 30% on larger screens */
+    margin-left: 30px;
+  }
+  
+  /* Some minor tweak to make sure the cart totals fill the space */
+  .woocommerce-cart .cart-collaterals .cart_totals {
+    width: 100%;
+    padding: 0 20px 70px;
+  }
+
+  .woocommerce-cart .woocommerce {
+    display: flex;
+  }
+
+  /* The "Apply Coupon" button */
+  .woocommerce-cart-form .actions .button {
+    border: 1px solid #555;
+    background: green;
+    color: white;
+}
+  /* Fill the "Apply Coupon" button background color and underline it on hover */
+  .button[name="apply_coupon"]:hover {
+    background-color: transparent;
+    text-decoration: underline;
+    color: black;
+  }
+  
+  /* The "Update Cart" button */
+  .woocommerce-cart-form .actions button[name=update_cart] {
+    background: green;
+    color: #fff;
+}
+  /* Brighten up the button on hover */
+  .button[name="update_cart"]:hover {
+    filter: brightness(115%);
+  }
+
+  /* css for checkout page */
+  .woocommerce-cart .woocommerce {
+    display: flex;
+  }
+  .woocommerce-cart .cart-collaterals {
+    flex: 1 0 30%; /* 100% at small screens; 30% on larger screens */
+    margin-left: 30px;
+  }
+  .woocommerce-cart .cart-collaterals .cart_totals {
+    width: 100%;
+    padding: 0 20px 70px;
+  }
+
+  .woocommerce-cart .woocommerce-cart-form {
+    flex: 1 0 70%; /* 100% at small screens; 70% on larger screens */
+    margin-right: 30px;
+  }
+  .cart-subtotal, .cart-discount, .order-total {
+    color: blue;
+}
+
+.woocommerce-checkout .select2-selection.select2-selection--single {
+    transition-timing-function: ease !important;
+    transition-duration: 0.3s;
+ }
+ 
+ .woocommerce-checkout .select2-selection.select2-selection--single:hover {
+    border-color: #bbbbbb !important;
+ }
+ .woocommerce-checkout-review-order-table {
+    border-collapse: collapse;
+}
+
+tr.order-total {
+    border-top: 5px solid #ff6d6d;
+}
+.woocommerce-checkout-review-order-table th,
+.woocommerce-checkout-review-order-table td {
+    padding: 10px;
+}
